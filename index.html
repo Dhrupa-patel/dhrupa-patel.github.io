@@ -187,11 +187,11 @@ nav {
 }
 .hero h1 {
   font-family: var(--serif);
-  font-size: clamp(48px, 7vw, 88px);
+  font-size: clamp(32px, 4vw, 52px);
   font-weight: 300;
-  line-height: 1.06;
-  margin-bottom: 28px;
-  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 24px;
+  letter-spacing: -0.01em;
 }
 .hero h1 em { font-style: italic; color: var(--accent); }
 .hero-sub {
@@ -717,8 +717,12 @@ footer {
 
       <!-- Project 1: On The Move — has real screenshot -->
       <div class="proj-card">
-        <div class="proj-img" style="background:var(--surface3); overflow:hidden; display:flex; align-items:center; justify-content:center;">
-          <span style="font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:0.1em;text-transform:uppercase;">On The Move</span>
+        <div class="proj-img">
+          <img src="https://opengraph.githubassets.com/1/Dhrupa-patel/on-the-move"
+               alt="On The Move GitHub preview"
+               style="width:100%;height:100%;object-fit:cover;object-position:top;"
+               onerror="this.style.display='none';this.parentNode.querySelector('.proj-img-fb').style.display='flex';" />
+          <span class="proj-img-fb" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:0.1em;text-transform:uppercase;">On The Move</span>
         </div>
         <div class="proj-body">
           <div class="proj-no">01</div>
@@ -736,7 +740,11 @@ footer {
       <!-- Project 2: Open Space Opera -->
       <div class="proj-card">
         <div class="proj-img">
-          <span class="proj-img-placeholder">Open Space Opera</span>
+          <img src="https://opengraph.githubassets.com/1/distributed-space-opera/gateway-1"
+               alt="Open Space Opera GitHub preview"
+               style="width:100%;height:100%;object-fit:cover;object-position:top;"
+               onerror="this.style.display='none';this.parentNode.querySelector('.proj-img-fb').style.display='flex';" />
+          <span class="proj-img-fb" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:0.1em;text-transform:uppercase;">Open Space Opera</span>
         </div>
         <div class="proj-body">
           <div class="proj-no">02</div>
@@ -753,7 +761,11 @@ footer {
       <!-- Project 3: UberEats & Indeed Replicas -->
       <div class="proj-card">
         <div class="proj-img">
-          <span class="proj-img-placeholder">UberEats &amp; Indeed</span>
+          <img src="https://opengraph.githubassets.com/1/Dhrupa-patel/UberEatsReplica"
+               alt="UberEats Replica GitHub preview"
+               style="width:100%;height:100%;object-fit:cover;object-position:top;"
+               onerror="this.style.display='none';this.parentNode.querySelector('.proj-img-fb').style.display='flex';" />
+          <span class="proj-img-fb" style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:0.1em;text-transform:uppercase;">UberEats &amp; Indeed</span>
         </div>
         <div class="proj-body">
           <div class="proj-no">03</div>
