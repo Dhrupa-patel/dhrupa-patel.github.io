@@ -14,27 +14,27 @@
   --serif: 'DM Serif Display', Georgia, serif;
   --mono: 'DM Mono', monospace;
 
-  /* ── PALETTE 3 · Stone & Teal ── */
-  --bg: #eaecec;
-  --surface: #f2f5f4;
-  --surface2: #dde2e2;
-  --surface3: #d0d4d4;
-  --border: rgba(22,30,30,0.10);
-  --border2: rgba(22,30,30,0.18);
+  /* ── PALETTE 2 · Ash & Ember ── */
+  --bg: #ebebeb;
+  --surface: #f5f3f0;
+  --surface2: #dedad4;
+  --surface3: #d2cfc8;
+  --border: rgba(24,24,24,0.10);
+  --border2: rgba(24,24,24,0.18);
 
-  --text: #161e1e;
-  --text2: #3a5050;
-  --text3: #6b8a8a;
+  --text: #181818;
+  --text2: #4a3f35;
+  --text3: #7a6e64;
 
-  --accent: #169678;
-  --accent-lt: rgba(22,150,120,0.08);
-  --accent-bd: rgba(22,150,120,0.30);
+  --accent: #c25422;
+  --accent-lt: rgba(194,84,34,0.08);
+  --accent-bd: rgba(194,84,34,0.30);
 
-  --gold: #c9a96e;
-  --gold-lt: rgba(201,169,110,0.12);
-  --gold-bd: rgba(201,169,110,0.35);
+  --gold: #5c8a6a;
+  --gold-lt: rgba(92,138,106,0.10);
+  --gold-bd: rgba(92,138,106,0.30);
 
-  --rose: #b05c6e;
+  --rose: #9b3050;
 }
 
 /* ══════════════════════════════════════════════════════════════
@@ -113,7 +113,7 @@ a { color: inherit; text-decoration: none; }
 /* ── NAV ─────────────────────────────────────────────────── */
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  background: rgba(234,236,236,0.92);
+  background: rgba(235,235,235,0.92);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
 }
@@ -143,7 +143,7 @@ nav {
   content: '';
   position: absolute; top: -120px; right: -80px;
   width: 500px; height: 500px; border-radius: 50%;
-  background: radial-gradient(circle, rgba(22,150,120,0.07) 0%, transparent 65%);
+  background: radial-gradient(circle, rgba(194,84,34,0.06) 0%, transparent 65%);
   pointer-events: none;
 }
 .hero-inner {
@@ -164,7 +164,7 @@ nav {
   content: '';
   position: absolute; inset: 0;
   border-radius: 12px;
-  background: linear-gradient(to bottom, transparent 60%, rgba(234,236,236,0.5) 100%);
+  background: linear-gradient(to bottom, transparent 60%, rgba(235,235,235,0.5) 100%);
   pointer-events: none;
 }
 @media (max-width: 860px) {
@@ -216,9 +216,9 @@ nav {
   cursor: pointer; transition: all 0.2s; font-family: var(--sans);
 }
 .btn-primary {
-  background: var(--accent); color: #f2f5f4; border: 1px solid var(--accent);
+  background: var(--accent); color: #f5f3f0; border: 1px solid var(--accent);
 }
-.btn-primary:hover { background: #0f7a61; border-color: #0f7a61; }
+.btn-primary:hover { background: #a04418; border-color: #a04418; }
 .btn-ghost {
   background: transparent; color: var(--text2); border: 1px solid var(--border2);
 }
